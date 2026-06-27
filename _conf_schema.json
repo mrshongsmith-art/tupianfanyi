@@ -1,0 +1,29 @@
+{
+  "baidu_app_id": {
+    "description": "百度翻译 APP ID",
+    "type": "string",
+    "hint": "百度翻译开发平台的 APP ID"
+  },
+  "baidu_app_key": {
+    "description": "百度翻译 APP Key",
+    "type": "string",
+    "hint": "百度翻译开发平台的 密钥"
+  },
+  "youdao_app_key": {
+    "description": "有道翻译 App Key",
+    "type": "string",
+    "hint": "有道智云的应用ID"
+  },
+  "youdao_app_secret": {
+    "description": "有道翻译 App Secret",
+    "type": "string",
+    "hint": "有道智云的应用密钥"
+  },
+  "priority_api": {
+    "description": "首选翻译 API",
+    "type": "string",
+    "options": ["baidu", "youdao"],
+    "default": "youdao",
+    "hint": "默认使用的翻译 API"
+  }
+}
